@@ -24,7 +24,7 @@ Publish the website in the given URL.
 
 ## PROGRAM:
 
-### base.html
+### responsivebase.html
 ```
 {% load static %}
 <!doctype html>
@@ -74,7 +74,7 @@ Publish the website in the given URL.
 </html>
 ```
 
-### home.html
+### responsivehome.html
 ```
 {% extends "design/responsivebase.html" %}
 
@@ -97,7 +97,7 @@ Publish the website in the given URL.
 {% endblock  %}
 ```
 
-### products.html
+### responsiveproducts.html
 ```
 {% extends "design/responsivebase.html" %}
 
@@ -209,7 +209,7 @@ Publish the website in the given URL.
 {% endblock  %}
 ```
 
-### people.html
+### responsivepeople.html
 ```
 {% extends "design/responsivebase.html" %}
 
@@ -314,7 +314,7 @@ Publish the website in the given URL.
 {% endblock  %}
  ```
 
-### contact.html
+### responsivecontactus.html
 ```
 {% extends "design/responsivebase.html" %}
 
